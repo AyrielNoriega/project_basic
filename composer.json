@@ -1,0 +1,20 @@
+{
+    "name": "user/project_basic",
+    "description": "Proyecto basico; emular estructura de carpetas de Laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "AyrielNoriega",
+            "email": "anoriega2310@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "app/helpers.php"
+        ]
+    }
+}
